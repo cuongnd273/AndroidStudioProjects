@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">Thi Trắc Nghiệm ITPLUS</string>
+
+    <string name="action_cauhoi">Câu Hỏi</string>
+
+    <!-- welcome-->
+    <string name="next">TIẾP</string>
+    <string name="skip">TRƯỚC</string>
+    <string name="start">ĐÃ XEM</string>
+
+    <string name="slide_1_title">VIỆN CÔNG NGHỆ THÔNG TIN - ĐẠI HỌC QUỐC GIA HÀ NỘI</string>
+    <string name="slide_1_desc">"Viện Công nghệ Thông tin - Đại học Quốc gia Hà Nội (tên giao dịch tiếng Anh: The Information Technology Institute (ITI) - Vietnam National University, Hanoi) là một trong những tổ chức nghiên cứu khoa học và phát triển công nghệ cấp quốc gia đầu tiên thuộc hệ thống đại học ở Việt Nam.</string>
+
+    <string name="slide_2_title">VIỆN CÔNG NGHỆ THÔNG TIN - ĐẠI HỌC QUỐC GIA HÀ NỘI</string>
+    <string name="slide_2_desc">Viện được thành lập theo Quyết định số 14/QĐ-TTg ngày 12/02/2001 của Thủ tướng Chính phủ với nhiệm vụ nghiên cứu, ứng dụng khoa học công nghệ; đào tạo chuyên gia chất lượng cao ở bậc tiến sĩ, sau đại học thuộc lĩnh vực công nghệ thông tin.</string>
+
+    <string name="slide_3_title">VIỆN CÔNG NGHỆ THÔNG TIN - ĐẠI HỌC QUỐC GIA HÀ NỘI</string>
+    <string name="slide_3_desc">Bên cạnh hoạt động nghiên cứu và đào tạo sau đại học, đến năm 2011 căn cứ theo nhu cầu thực tế của các tập đoàn CNTT tại Việt Nam, Viện Công nghệ Thông tin triển khai chương trình đào tạo chuyên sâu về kỹ năng CNTT theo Dự án thực tế với 2 chương trình: Lập trình ứng dụng và Thiết kế đồ họa – Truyền thông Đa phương tiện.</string>
+
+    <string name="slide_4_title">VIỆN CÔNG NGHỆ THÔNG TIN - ĐẠI HỌC QUỐC GIA HÀ NỘI</string>
+    <string name="slide_4_desc">Cho đến nay, sau 15 năm hình thành và phát triển (2001 – 2016) với ưu thế là một Viện nghiên cứu thuộc Đại học Quốc gia Hà Nội, trung tâm đại học hàng đầu ở Việt Nam,</string>
+
+    <string name="slide_5_title">CLICK  Tham gia thi  ĐỂ BẮT ĐẦU LÀM BÀI</string>
+    <string name="slide_5_desc">Viện Công nghệ Thông tin sẽ tiếp tục đẩy mạnh đào tạo và nghiên cứu để làm tròn sứ mệnh của Đại học Quốc gia Hà Nội là “Trung tâm đào tạo và nghiên cứu, ứng dụng khoa học công nghệ đa ngành, đa lĩnh vực, từng bước tiếp cận trình độ quốc tế, đóng vai trò nòng cốt và đầu tàu đổi mới hệ thống giáo dục nước nhà" </string>
+
+    <string name="slide_6_title">LẬP TRÌNH ỨNG DỤNG</string>
+    <string name="slide_6_desc">Lập trình web PHP mã nguồn mở \n OPTION 1:Lập trình ứng dụng NETFRAMEWORK\n OPTION 2:Lập trình ứng dụng JAVA EE FRAMEWORK</string>
+
+    <string name="slide_7_title">THIẾT KẾ ĐỒ HỌA - TRUYỀN THÔNG ĐA PHƯƠNG TIỆN</string>
+    <string name="slide_7_desc">Thiết kế đồ họa chuyên nghiệp \n OPTION 1:Làm phim hoạt hình và quảng cáo 3D \n OPTION 2:Thiết kế và diễn họa nội thất</string>
+
+    <!-- LogIn-->
+    <string name="error">Mã Dự Thi hoặc Số Điện Thoại không đúng.\n Xin vui lòng nhập lại.</string>
+    <!-- SignUp-->
+    <string name="error_hodem">Xin vui lòng nhập họ đệm</string>
+    <string name="error_ten">Xin vui lòng nhập tên</string>
+    <string name="error_email">Xin vui lòng nhập email</string>
+    <string name="error_sodienthoai">Xin vui lòng nhập số điện thoai</string>
+    <string name="error_ngaysinh">Xin vui lòng nhập ngày sinh</string>
+    <string name="error_diachi">Xin vui lòng nhập địa chỉ</string>
+    <string name="error_truong">Xin vui lòng nhập trường</string>
+    <string name="error_lop">Xin vui lòng nhập họ lớp</string>
+    <string name="error_tenphuhuynh">Xin vui lòng nhập tên phụ huynh</string>
+    <string name="error_sodienthoaiphuhuynh">Xin vui lòng nhập sodienthoaiphuhuynh</string>
+
+    <!-- Main-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="_trangchu">Trang Chủ</string>
+    <string name="_thamgiathi">Tham Gia Thi</string>
+    <string name="_tracuudiemthi">Tra Cứu Điểm Thi</string>
+    <string name="_gioithieu">Giới Thiệu</string>
+    <string name="_dangxuat">Đăng Xuất</string>
+    <string name="_dangky">Đăng Ký</string>
+
+    <!-- TrangChuFragment-->
+    <string name="trangchu_title">VIỆN CÔNG NGHỆ THÔNG TIN - ĐẠI HỌC QUỐC GIA HÀ NỘI</string>
+    <string name="trangchu_title2">INFORMATION TECHNOLOGY INSTITUTE - VIETNAM NATIONAL UNIVERSITY, HANOI</string>
+    <string name="kiemtra">KỲ KIỂM TRA KỸ NĂNG CNTT 2016</string>
+    <string name="dangky">Đăng ký</string>
+    <string name="thamgiathi">Tham gia thi</string>
+    <string name="tracuudiemthi">Tra Cứu Điểm Thi</string>
+    <string name="gioithieu_title">GIỚI THIỆU VIỆN CNTT - ĐẠI HỌC QUỐC GIA HÀ NỘI</string>
+    <string name="gioithieu"> "Viện Công nghệ Thông tin - Đại học Quốc gia Hà Nội (tên giao dịch tiếng Anh: The Information Technology Institute (ITI) - Vietnam National University, Hanoi) là một trong những tổ chức nghiên cứu khoa học và phát triển công nghệ cấp quốc gia đầu tiên thuộc hệ thống đại học ở Việt Nam. Viện được thành lập theo Quyết định số 14/QĐ-TTg ngày 12/02/2001 của Thủ tướng Chính phủ với nhiệm vụ nghiên cứu, ứng dụng khoa học công nghệ; đào tạo chuyên gia chất lượng cao ở bậc tiến sĩ, sau đại học thuộc lĩnh vực công nghệ thông tin. Bên cạnh hoạt động nghiên cứu và đào tạo sau đại học, đến năm 2011 căn cứ theo nhu cầu thực tế của các tập đoàn CNTT tại Việt Nam, Viện Công nghệ Thông tin triển khai chương trình đào tạo chuyên sâu về kỹ năng CNTT theo Dự án thực tế với 2 chương trình: Lập trình ứng dụng và Thiết kế đồ họa – Truyền thông Đa phương tiện.\n Cho đến nay, sau 15 năm hình thành và phát triển (2001 – 2016) với ưu thế là một Viện nghiên cứu thuộc Đại học Quốc gia Hà Nội, trung tâm đại học hàng đầu ở Việt Nam, Viện Công nghệ Thông tin sẽ tiếp tục đẩy mạnh đào tạo và nghiên cứu để làm tròn sứ mệnh của Đại học Quốc gia Hà Nội là “Trung tâm đào tạo và nghiên cứu, ứng dụng khoa học công nghệ đa ngành, đa lĩnh vực, từng bước tiếp cận trình độ quốc tế, đóng vai trò nòng cốt và đầu tàu đổi mới hệ thống giáo dục nước nhà" </string>
+    <string name="chuongtrinhhoc">CHƯƠNG TRÌNH HỌC</string>
+    <string name="laptrinhungdung">LẬP TRÌNH ỨNG DỤNG</string>
+    <string name="model1">MODULE 1</string>
+    <string name="model11">Tin học căn bản, Microsoft Office</string>
+    <string name="model12">Kỹ năng giao tiếp</string>
+    <string name="model13">Photoshop cho giao diện website</string>
+    <string name="model14">Thiết kế trang web với HTML,CSS và JAVASCRIPT</string>
+    <string name="model15">Ngôn ngữ lập trình C</string>
+    <string name="model16">Tiếng anh cơ bản</string>
+    <string name="model2">MODULE 2</string>
+    <string name="model21">Tiếng anh nâng cao</string>
+    <string name="model22">Hệ quản trị CSDL MySQL</string>
+    <string name="model23">Lập trình web với PHP , MYSQL</string>
+    <string name="model24">Dự án cuối khóa</string>
+    <string name="model3">MODULE 3</string>
+    <string name="model31">Ngôn ngữ XML</string>
+    <string name="model32">Hệ quản trị CSDL SQL Server</string>
+    <string name="model33">Ngôn ngữ lập trình C#</string>
+    <string name="model34">ập trình Windows Form</string>
+    <string name="model35">Ngôn ngữ lập trình Java I</string>
+    <string name="model36">Ngôn ngữ lập trình Java II</string>
+    <string name="model4">MODULE 4</string>
+    <string name="model41">Lập trình Web Form cùng .Net Framework</string>
+    <string name="model42">Lập trình phân tán</string>
+    <string name="model43">Lập trình ứng dụng Windows Phone</string>
+    <string name="model44">Dự án cuối khóa</string>
+    <string name="model45">Web Service cùng Java</string>
+    <string name="model46">Lập trình android</string>
+    <string name="model47">Phát triển web với JSF Framework</string>
+    <array name="group_LTUD">
+        <item>LẬP TRÌNH WEB PHP MÃ NGUỒN MỞ</item>
+        <item>OPTION 1:LẬP TRÌNH ÚNG DỤNG NETFAMEWORD</item>
+        <item>OPTION 2:LẬP TÌNH ỨNG DỤNG JAVA EE NETFAMEWORD</item>
+    </array>
+    <array name="array_LTWEB">
+        <item>@string/model1</item>
+        <item>@string/model11</item>
+        <item>@string/model12</item>
+        <item>@string/model13</item>
+        <item>@string/model14</item>
+        <item>@string/model15</item>
+        <item>@string/model16</item>
+        <item>@string/model2</item>
+        <item>@string/model21</item>
+        <item>@string/model22</item>
+        <item>@string/model23</item>
+        <item>@string/model24</item>
+    </array>
+    <array name="array_NETFRAMEWORD">
+        <item>@string/model3</item>
+        <item>@string/model31</item>
+        <item>@string/model32</item>
+        <item>@string/model33</item>
+        <item>@string/model34</item>
+        <item>@string/model4</item>
+        <item>@string/model41</item>
+        <item>@string/model42</item>
+        <item>@string/model43</item>
+        <item>@string/model44</item>
+    </array>
+    <array name="array_JAVAEE">
+        <item>@string/model3</item>
+        <item>@string/model31</item>
+        <item>@string/model32</item>
+        <item>@string/model35</item>
+        <item>@string/model36</item>
+        <item>@string/model4</item>
+        <item>@string/model47</item>
+        <item>@string/model45</item>
+        <item>@string/model46</item>
+        <item>@string/model44</item>
+    </array>
+
+    <string name="thietkedohoa">THIẾT KẾ ĐỒ HỌA - TTDPT</string>
+    <string name="model1_1">Tin học căn bản, Microsoft Office</string>
+    <string name="model1_2">Tiếng anh cơ bản</string>
+    <string name="model1_3">Xử lý ảnh với Adobe Photoshop</string>
+    <string name="model1_4">Thiết kế mẫu in ấn với ilustrator</string>
+    <string name="model1_5">Xuất bản in ấn với Adobe Indesign</string>
+    <string name="model1_6">Kỹ năng thiết kế xây dựng thương hiệu</string>
+    <string name="model1_7">Dự án xây dựng bộ nhận diện thương hiệu</string>
+    <string name="model2_1">Kỹ năng nhiếp ảnh, Kỹ năng giao tiếp</string>
+    <string name="model2_2">Tiếng anh nâng cao</string>
+    <string name="model2_3">Thiết kế giao diện website với Photoshop</string>
+    <string name="model2_4">Thiết kế giao diện website với HTML , CSS, Dreamweaver</string>
+    <string name="model3_1">Tạo hình cơ bản với 3D Maya (Modeling)</string>
+    <string name="model3_2">Gán chất liệu (Texture)</string>
+    <string name="model3_3">Gán xương nhân vật (Rigging)</string>
+    <string name="model3_4">Tạo chuyển động (Animation)</string>
+    <string name="model3_5">Đặt ánh sáng (Lighting) và chiết xuất ra ảnh và phim (Render)</string>
+    <string name="model3_6">Autodesk AutoCAD</string>
+    <string name="model3_7">Thiết kế mô hình 3D với Autodesk 3Ds MAX</string>
+    <string name="model3_8">Ánh sáng, vật liệu , Camera trong 3Ds MAX,Hậu kỳ</string>
+    <string name="model3_9">Bài tập lớn kỹ năng diễn họa</string>
+    <string name="model4_1">Ngôn ngữ kịch bản (Storyboard)</string>
+    <string name="model4_2">Biên tập âm thanh với Adobe Audition</string>
+    <string name="model4_3">Dựng phim chuyên nghiệp với Adobe Premiere</string>
+    <string name="model4_4">Tạo dựng kĩ xảo với Adobe After Effect</string>
+    <string name="model4_5">Dự án cuối khóa</string>
+    <string name="model4_6">Thiết kế nội thất</string>
+    <string name="model4_7">Thiết kế công trình nhà ở và trung cư</string>
+    <string name="model4_8">Thiết kế công trình công cộng (Nhà hàng)</string>
+
+    <array name="group_TKDH">
+        <item>THIẾT KẾ ĐỒ HỌA CHUYÊN NGHIỆP</item>
+        <item>OPTION 1:LÀM PHIM HOAT HÌNH VÀ QUẢNG CÁO 3D</item>
+        <item>OPTION 2:THIẾT KẾ VÀ DIỄM HỌA NỘI THẤT</item>
+    </array>
+    <array name="array_TKDHCN">
+        <item>@string/model1</item>
+        <item>@string/model1_1</item>
+        <item>@string/model1_2</item>
+        <item>@string/model1_3</item>
+        <item>@string/model1_4</item>
+        <item>@string/model1_5</item>
+        <item>@string/model1_6</item>
+        <item>@string/model1_7</item>
+        <item>@string/model2</item>
+        <item>@string/model2_1</item>
+        <item>@string/model2_2</item>
+        <item>@string/model2_3</item>
+        <item>@string/model2_4</item>
+    </array>
+    <array name="array_3D">
+        <item>@string/model3</item>
+        <item>@string/model3_1</item>
+        <item>@string/model3_2</item>
+        <item>@string/model3_3</item>
+        <item>@string/model3_4</item>
+        <item>@string/model3_5</item>
+        <item>@string/model4</item>
+        <item>@string/model4_1</item>
+        <item>@string/model4_2</item>
+        <item>@string/model4_3</item>
+        <item>@string/model4_4</item>
+        <item>@string/model4_5</item>
+    </array>
+    <array name="array_NT">
+        <item>@string/model3</item>
+        <item>@string/model3_6</item>
+        <item>@string/model3_7</item>
+        <item>@string/model3_8</item>
+        <item>@string/model3_9</item>
+        <item>@string/model4</item>
+        <item>@string/model4_6</item>
+        <item>@string/model4_7</item>
+        <item>@string/model4_8</item>
+        <item>@string/model4_5</item>
+    </array>
+    <string name="doituongthamgia_title">ĐỐI TƯỢNG THAM GIA</string>
+    <string name="doituongthamgia">Học sinh THPT và sinh viên các trường Đại học muốn học chuyên sâu về Lập trình Ứng dụng và Thiết kế đồ họa – Truyền thông đa phương tiện. </string>
+    <string name="hinhthuctuyensinh_title">HÌNH THỨC TUYỂN SINH</string>
+    <string name="hinhthucthi">HÌNH THỨC THI</string>
+    <string name="thitructiep_title"> Thi trực tiếp:</string>
+    <string name="thitructiep">
+        Bước 1: Đăng ký hồ sơ tại Viên CNTT hoặc các địa điểm thi. Điền đầy đủ thông tin vào phiếu đăng ký dự tuyển. Chi tiết liên hệ hotline: 0966205643 để được hướng dẫn miễn phí.
+        \nBước 2: Nhận tin nhắn thông báo thời gian và địa điểm thi qua SMS
+        \nBước 3: Tham gia thi theo đúng thời gian, địa điểm thi đã được thông báo. Khi đến tham dự, mang theo CMND hoặc giấy tờ tùy thân. Thời gian làm bài 90 phút kể từ khi phát đề.
+        \nBước 4: Tra cứu kết quả sau 7 ngày trên trang: http://itplus-academy.edu.vn/tra-cuu.html
+    </string>
+    <string name="thitructuyen_title">Thi trực tuyến:</string>
+    <string name="thitructuyen">
+        Bước 1: Truy cập website:
+        \nhttp://itplus-academy.edu.vn/
+        \nĐăng ký trực tuyến bằng cách điền thông tin theo form
+        \nBước 2: Nhận được thông báo về SBD
+        \nBước 3: Tham gia thi online trên máy tính tại bất kỳ điểm nào có kết nối internet Thời gian làm bài 60 phút kể từ lúc chọn môn thi.
+        \nBước 4: Tra cứu kết quả sau 3 ngày trên website: http://itplus-academy.edu.vn/tra-cuu.html
+    </string>
+    <string name="cautrucdethi_title">CẤU TRÚC ĐỀ THI</string>
+    <string name="phan1_title">Phần I.</string>
+    <string name="phan1">
+        Phần Thi Bắt Buộc (Tổng 5.5 điểm)
+        \nToán: Có 15 Câu, mỗi câu 0,1 điểm
+        \nVăn: Có 15 Câu, mỗi câu 0,1 điểm.
+        \nTiếng anh: Có 15 câu, mỗi câu 0.1 điểm.
+        \nCông nghệ thông tin: Có 10 câu, mỗi câu 0.1 điểm.
+    </string>
+    <string name="phan2_title">Phần II.</string>
+    <string name="phan2">
+        Phần thi tự chọn (Tổng 4.5 điểm).
+        \nPhần Logic:
+        \n15 câu, mỗi câu 0,3 điểm .
+        \nPhần Đồ họa:
+        \n5 Câu
+    </string>
+    <string name="hinhthuctuyensinh">Thí sinh thi đầu vào theo khung chương trình đào tạo kỹ năng CNTT của Viện Công nghệ thông tin – Đại học Quốc gia Hà Nội</string>
+    <string name="diachi">Địa chỉ : Tầng 5, Nhà E3, Viện CNTT, ĐHQG HN, 144 Xuân Thủy, Cầu Giấy, Hà Nội</string>
+    <string name="sodienthoai">Điện thoại : 04 3754 6732 Hotline: 0963 72 65 65</string>
+    <string name="email">Email: info@itplus-academy.edu.vn</string>
+    <string name="phattrien">Copyright © 2011 All Rights Reserved. Phát triển bởi ITPlus Academy</string>
+
+    <string name="nopbai">Nộp Bài</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

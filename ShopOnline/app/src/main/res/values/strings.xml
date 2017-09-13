@@ -1,0 +1,36 @@
+<resources>
+    <string name="facebook_app_id">848183485331185</string>
+    <string name="fb_login_protocol_scheme">fb848183485331185</string>
+    <string name="app_name">ShopOnline</string>
+    <string name="textSearch">Tìm kiếm sản phẩm</string>
+    <string name="open_drawer">Mở</string>
+    <string name="close_drawer">Đóng</string>
+    <string name="name_fragment_login">Đăng nhập</string>
+    <string name="name_fragment_registry">Đăng ký</string>
+    <string name="name_activity_login">Đăng nhập / Đăng ký</string>
+    <string name="email">Địa chỉ email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="registry">Đăng ký</string>
+    <string name="forget_password">Quên mật khẩu?</string>
+    <string name="or_login_by">Hoặc đăng nhập bằng</string>
+    <string name="registry_notice">Cần điền tất cả các mục.</string>
+    <string name="registry_name">Họ tên đầy đủ</string>
+    <string name="registry_notice_password">Mật khẩu phải bao gồm ít nhất 6 ký tự và 1 chữ hoa.</string>
+    <string name="registry_notice_sale">Tôi muốn nhận các khuyến mãi độc quyền qua email.</string>
+    <string name="registry_commitment_1">Tôi đã đọc và hiểu rõ các </string>
+    <string name="registry_commitment_2"><u>điều khoản </u></string>
+    <string name="registry_commitment_3"> và </string>
+    <string name="registry_commitment_4"><u>chính sách bảo mật </u></string>
+    <string name="registry_commitment_5"> của ShopOnline</string>
+    <string name="or_registry_by">Hoặc đăng ký bằng</string>
+    <string name="error_password">K</string>
+    <string name="error_login_email">Hãy nhập đúng email.</string>
+    <string name="error_login_pass">Hãy nhập mật khẩu.</string>
+    <string name="error_registry_fullname">Hãy nhập họ tên đầy đủ.</string>
+    <string name="error_registry_email">Hãy nhập đúng email.</string>
+    <string name="error_registry_repeat_password">Hãy nhập đúng mật khẩu.</string>
+    <string name="error_login">Sai thông tin đăng nhập.</string>
+    <string name="error_internet">Vui lòng kiểm tra lại kết nối mạng.</string>
+    <string name="loading">Xin chờ...</string>
+</resources>

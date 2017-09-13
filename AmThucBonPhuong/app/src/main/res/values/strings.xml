@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ẩm thực bốn phương</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_context_tabs">ContextTabsActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_video_amthuc">VideoAmthucActivity</string>
+    <string name="title_activity_show_video_amthuc">ShowVideoAmthucActivity</string>
+    <string name="title_activity_food_category">FoodCategoryActivity</string>
+    <string name="title_activity_monan_uathich">MonanUathichActivity</string>
+    <string name="title_activity_monan_sql">MonanSQLActivity</string>
+    <string name="title_activity_thucpham_chucnang">ThucphamChucnangActivity</string>
+    <string name="title_activity_tintuc_amthuc">TintucAmthucActivity</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_show_food">ShowFoodActivity</string>
+
+    <string name="nguyenlieu">Nguyên Liệu</string>
+    <string name="cachthuchien">Cách thực hiện</string>
+    <string name="title_activity_show_food_like">ShowFoodLike</string>
+    <string name="title_activity_add_myfoods">AddMyfoodsActivity</string>
+    <string name="title_activity_load_image__external">LoadImage_External</string>
+    <string name="title_activity_webview">WebviewActivity</string>
+    <string name="title_activity_show_food_sql">ShowFoodSqlActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

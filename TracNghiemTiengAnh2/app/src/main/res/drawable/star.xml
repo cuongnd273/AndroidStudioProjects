@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/starone"
+        android:minLevel="1"
+        android:maxLevel="2"></item>
+    <item android:drawable="@drawable/startwo"
+        android:minLevel="1"
+        android:maxLevel="4"></item>
+    <item android:drawable="@drawable/starthree"
+        android:minLevel="1"
+        android:maxLevel="6"></item>
+    <item android:drawable="@drawable/starfour"
+        android:minLevel="1"
+        android:maxLevel="8"></item>
+    <item android:drawable="@drawable/starfive"
+        android:minLevel="1"
+        android:maxLevel="10"></item>
+</level-list>

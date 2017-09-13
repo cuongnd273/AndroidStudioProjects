@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cuongnguyen.app.com.shoponline.View.SplashScreen.SplashScreenActivity"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#65000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="100dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/splash_shop"
+            android:tint="#d96f19" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="2"
+            android:text="Nơi thỏa mãn tình yêu mua sắm."
+            android:textColor="#FFF"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/splash_smile"
+            android:tint="#d96f19" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="2"
+            android:text="Mang đến niềm vui cho bạn."
+            android:textColor="#FFF"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/splash_ship"
+            android:tint="#d96f19" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="2"
+            android:text="Giao hàng toàn quốc + nhanh chóng"
+            android:textColor="#FFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_logo"
+        android:layout_alignParentBottom="true"
+        android:tint="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"/>
+</RelativeLayout>

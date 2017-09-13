@@ -1,0 +1,1 @@
+include ':app', ':Parse-1.10.2', ':YouTubeAndroidPlayerApi', ':picasso-2.5.2'

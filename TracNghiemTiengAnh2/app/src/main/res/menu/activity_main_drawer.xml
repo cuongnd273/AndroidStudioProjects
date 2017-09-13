@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grammars"
+            android:icon="@drawable/lythuyet"
+            android:title="@string/nguphap" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/luyentap"
+            android:title="@string/tracnghiem" />
+        <item
+            android:id="@+id/nav_bode"
+            android:icon="@drawable/luyentap"
+            android:title="@string/bode" />
+        <item
+            android:id="@+id/nav_featapp"
+            android:icon="@drawable/ungdungnoibat"
+            android:title="@string/ungdung" />
+    </group>
+
+    <item android:title="@string/Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/danhgiaungdung"
+                android:title="@string/danhgia" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/chiase"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/guiphanhoi"
+                android:title="@string/phanhoi" />
+            <item
+                android:id="@+id/nav_thongtin"
+                android:icon="@drawable/guiphanhoi"
+                android:title="@string/thongtin" />
+        </menu>
+    </item>
+</menu>

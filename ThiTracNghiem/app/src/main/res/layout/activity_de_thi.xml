@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="end"
+    tools:context="vn.edu.itplus_academy.thitracnghiem.Activity.DeThiActivity">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:id="@+id/container">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" >
+                <LinearLayout
+                    android:id="@+id/layout_times"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:weightSum="10">
+                    <ProgressBar
+                        android:id="@+id/progressBar_time"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="200dp"
+                        android:layout_height="5dp"
+                        android:layout_weight="7"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_dongho"
+                            android:layout_weight="2"/>
+
+                        <TextView
+                            android:id="@+id/txt_time"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"
+                            android:layout_weight="2"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView"
+                android:layout_marginTop="?attr/actionBarSize">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/layout_cauhoiWorkouts"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="65dp"
+                        app:cardElevation="3dp"
+                        app:cardUseCompatPadding="false"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardMaxElevation="3dp"
+                        app:cardCornerRadius="5dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:id="@+id/txt_namecauhoi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack">
+
+                            </TextView>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginBottom="10dp">
+                                <TextView
+                                    android:id="@+id/txt_cauhoi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:minHeight="50dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/colorBlack">
+
+                                </TextView>
+                                <ImageView
+                                    android:id="@+id/img_cauhoi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:minHeight="50dp"
+                                    android:visibility="invisible" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <android.support.v7.widget.RecyclerView
+                                    android:id="@+id/rv_dapan"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:divider="@null"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:scrollbars="vertical">
+                                </android.support.v7.widget.RecyclerView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp">
+                                    <EditText
+                                        android:layout_weight="1"
+                                        android:id="@+id/edt_dapan"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="invisible"
+                                        android:hint="Nhập câu trả lời"/>
+                                    <Button
+                                        android:id="@+id/btn_xong"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:text="xong"
+                                        android:background="@drawable/bg_btn_blue"
+                                        android:textColor="@color/colorWhite"
+                                        android:textStyle="bold"
+                                        android:textAllCaps="false"
+                                        android:visibility="invisible"/>
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn_quaylai"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/quaylai" />
+                <Button
+                    android:id="@+id/btn_nopbai"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nopbai"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_btn_blue"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/btn_tieptheo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/tieptheo" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_gravity="end"
+        android:background="@color/colorWhite">
+        <ListView
+            android:id="@+id/lv_cauhoi"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activitys.KetQuaActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="top"
+                        android:text="@string/diensocuaban"
+                        android:layout_marginTop="10dp"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"
+                        />
+                    <TextView
+                        android:id="@+id/txt_diem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:gravity="top"
+                        android:text="10"
+                        android:textSize="60sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <ImageView
+                        android:id="@+id/star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="53dp"
+                        android:src="@drawable/star"
+                        android:layout_gravity="center"/>
+                </RelativeLayout>
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/chart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center" />
+                <Button
+                    android:id="@+id/btn_chitiet"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/chitiet"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlue"
+                    android:textAllCaps="false"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="70dp">
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_btn_itemgrammars"
+                android:text="@string/reset"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_btn_itemgrammars"
+                android:text="@string/next"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

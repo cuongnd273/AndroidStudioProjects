@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chuyển đổi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="info">Chuyển đổi số và đơn vị là một công cụ đơn giản và thân thiện. Chuyển đổi được các hệ thống số. Bạn có thể chuyển đổi nhiều loại tiền tệ. Có thể chuyển đổi các đơn vị quan trọng như trọng lượng, nhiệt độ, thể tích ...
+Tôi mong muốn thêm và hỗ trợ nhiều hơn nữa các đơn vị của ứng dụng trong tương lai gần.\n\n
+Mạnh Thế</string>
+    <string name="action_settings">Settings</string>
+    <string name="rule">Không copy dưới mọi hình thức\n\n Phần mềm được cung cấp miễn phí,\n\nkhông sử dụng cho mục đích lợi nhuận</string>
+</resources>

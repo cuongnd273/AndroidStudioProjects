@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979699516677",
+    "project_id": "firebase-shoponline"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979699516677:android:440a15f857df0080",
+        "android_client_info": {
+          "package_name": "cuongnguyen.app.com.shoponline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979699516677-t2nvn23q6lo280q4q9rcafnohu982s1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cuongnguyen.app.com.shoponline",
+            "certificate_hash": "c9b4c17bd540847d465c4311688213c2e671f96d"
+          }
+        },
+        {
+          "client_id": "979699516677-0t59bgpff4t7rhmtk6su8s526eg97iv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNRLYxVCy7CraVDB_aTg7YVEwQkEcSDWE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

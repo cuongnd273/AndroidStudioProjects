@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "cuongnguyen.app.com.mymusic"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //Card View
+    compile 'com.android.support:cardview-v7:24.1.1'
+    // RecyclerView
+    compile 'com.android.support:recyclerview-v7:24.1.1'
+    //Picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //Lombok
+    provided 'org.projectlombok:lombok:1.12.2'
+    //slide up layout
+    compile 'com.sothree.slidinguppanel:library:3.3.1'
+//circle image
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    //sweet alert
+    compile 'cn.pedant.sweetalert:library:1.3'
+    //eventBus
+    compile 'org.greenrobot:eventbus:3.0.0'
+    //rainbow
+    compile 'hanks.xyz:htextview-library:0.1.5'
+    //annotation
+    compile 'com.android.support:support-annotations:24.0.0'
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+    //retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+    //firebase
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-storage:10.0.1'
+    compile 'com.google.firebase:firebase-database:10.0.1'
+
+    //visualization
+    compile 'com.cleveroad:audiovisualization:1.0.0'
+    testCompile 'junit:junit:4.12'
+}

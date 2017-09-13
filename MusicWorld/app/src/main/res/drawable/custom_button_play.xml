@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:minLevel="1"
+        android:maxLevel="1">
+        <selector>
+            <item android:drawable="@drawable/play_press"
+                android:state_pressed="true"></item>
+            <item android:drawable="@drawable/play"></item>
+        </selector>
+    </item>
+    <item android:minLevel="2"
+        android:maxLevel="2">
+        <selector>
+            <item android:drawable="@drawable/pause_press"
+                android:state_pressed="true"></item>
+            <item android:drawable="@drawable/pause"></item>
+        </selector>
+    </item>
+</level-list>

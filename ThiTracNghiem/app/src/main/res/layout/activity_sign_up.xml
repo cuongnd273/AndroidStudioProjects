@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#ef8d50"
+        android:paddingRight="@dimen/login_signup_layout_horinzontal_pading"
+        android:paddingLeft="@dimen/login_signup_layout_horinzontal_pading">
+
+        <TextView
+            android:id="@+id/txt_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_signup_title_margin"
+            android:text="ĐĂNG KÝ DỰ THI"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/login_signup_slide_title"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt_hodem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Họ Đệm"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/name"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_ten"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Tên"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/name"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/email"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_sodienthoai"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:background="@drawable/bt_sign_up"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Số Điện Thoại"
+            android:inputType="phone"
+            android:drawableLeft="@drawable/phone"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_ngaysinh"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Ngày Sinh"
+            android:inputType="text"
+            android:drawableLeft="@drawable/birthday"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_diachi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Địa Chỉ"
+            android:inputType="text"
+            android:drawableLeft="@drawable/address"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_truong"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Trường"
+            android:inputType="text"
+            android:drawableLeft="@drawable/school"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_lop"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Lớp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/classicon"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_tenphuhuynh"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Tên Phụ Huynh"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/name"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_sodienthoaiphuhuynh"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_edt_height"
+            android:background="@drawable/bt_sign_up"
+            android:layout_marginTop="@dimen/login_signup_edt_margin1"
+            android:paddingLeft="@dimen/login_signup_edt_pading"
+            android:hint="Số Điện Thoại Phụ Huynh"
+            android:inputType="phone"
+            android:drawableLeft="@drawable/phone"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_chuongtrinhhoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signup_txt_margin"
+            android:paddingLeft="@dimen/signup_txt_pading"
+            android:text="Chọn chương trình học :"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/signup_txt_size" />
+
+        <RadioGroup
+            android:id="@+id/rgr_chuongtrinhhoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signup_radio_margin">
+            <RadioButton
+                android:id="@+id/rbtn_tkdh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Thiết kế đồ họa - Truyền thông đa phương tiện"
+                android:textColor="@color/colorWhite"/>
+            <RadioButton
+                android:id="@+id/rbtn_ltud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lập trình ứng dụng"
+                android:textColor="@color/colorWhite"/>
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btn_dangky"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_signup_btn_height"
+            android:background="@drawable/btn_signup"
+            android:layout_marginTop="@dimen/login_signup_btn_margin"
+            android:text="ĐĂNG KÝ"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/txt_dangnhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_signup_txt_margin_top"
+            android:layout_marginBottom="@dimen/login_signup_txt_margin_button"
+            android:text="Đăng nhập tại đây ."
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/login_signup_txt_size" />
+
+    </LinearLayout>
+
+</ScrollView>

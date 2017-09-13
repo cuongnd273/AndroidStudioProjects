@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:id="@+id/txt_idTest"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="01"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorWhite"/>
+        <RelativeLayout
+            android:id="@+id/layout_Test"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:id="@+id/layout_baithi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/baithi"-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:textStyle="italic"-->
+                    <!--android:textColor="@color/colorBlack"/>-->
+                <TextView
+                    android:id="@+id/txt_nameTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_thoigian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_baithi"
+                android:layout_alignLeft="@+id/layout_baithi">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/thoigian"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/txt_timeTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/phut"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+</LinearLayout>

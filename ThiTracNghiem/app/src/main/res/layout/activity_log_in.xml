@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ef8d50"
+    android:paddingRight="@dimen/login_signup_layout_horinzontal_pading"
+    android:paddingLeft="@dimen/login_signup_layout_horinzontal_pading"
+    tools:context=".Activity.LogInActivity">
+    <TextView
+        android:id="@+id/txt_dangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_signup_title_margin"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/login_signup_slide_title"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edt_maduthi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_signup_edt_height"
+        android:background="@drawable/bt_sign_up"
+        android:layout_marginTop="@dimen/login_signup_edt_margin"
+        android:paddingLeft="@dimen/login_signup_edt_pading"
+        android:hint="Số Báo Danh"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edt_sodienthoai"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_signup_edt_height"
+        android:background="@drawable/bt_sign_up"
+        android:layout_marginTop="@dimen/login_signup_edt_margin1"
+        android:paddingLeft="@dimen/login_signup_edt_pading"
+        android:hint="Số Điện Thoại"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/txt_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="@dimen/login_signup_txt_size"
+        android:textColor="@color/colorRed"/>
+
+    <Button
+        android:id="@+id/btn_dangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_signup_btn_height"
+        android:background="@drawable/btn_signup"
+        android:layout_marginTop="8dp"
+        android:text="ĐĂNG NHẬP"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txt_dangky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_signup_txt_margin_top"
+        android:text="Bạn chưa có số báo danh ?Đăng ký tại đây"
+        android:textSize="@dimen/login_signup_txt_size" />
+</LinearLayout>

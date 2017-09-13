@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="td.quang.vnplayer.views.activities.MainActivity">
+    <item
+        android:id="@+id/action_searchc"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:itemTextAppearance="@style/myCustomMenuTextApearance"
+        android:title="@string/action_search"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="always"
+        tools:ignore="AlwaysShowAction,AppCompatResource">
+
+    </item>
+    <item
+        android:id="@+id/action_schedule"
+        android:orderInCategory="100"
+        android:title="@string/action_schedule"/>
+    <item
+        android:id="@+id/action_enable_visualization"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/action_enable_visualization"
+        />
+</menu>

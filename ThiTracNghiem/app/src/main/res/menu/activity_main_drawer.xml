@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trangchu"
+            android:icon="@drawable/home"
+            android:title="@string/_trangchu" />
+        <item
+            android:id="@+id/nav_thamgiathi"
+            android:icon="@drawable/test"
+            android:title="@string/_thamgiathi" />
+        <item
+            android:id="@+id/nav_tracuudiemthi"
+            android:icon="@drawable/search"
+            android:title="@string/_tracuudiemthi" />
+        <item
+            android:id="@+id/nav_gioithieu"
+            android:icon="@drawable/information"
+            android:title="@string/_gioithieu" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_dangxuat"
+                android:icon="@drawable/logout"
+                android:title="@string/_dangxuat" />
+            <item
+                android:id="@+id/nav_dangky"
+                android:icon="@drawable/register"
+                android:title="@string/_dangky" />
+        </menu>
+    </item>
+
+</menu>

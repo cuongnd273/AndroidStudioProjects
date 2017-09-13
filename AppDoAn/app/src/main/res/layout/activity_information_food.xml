@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cuongnguyen.appdoan.Activity.InformationFood"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.cuongnguyen.appdoan.Activity.InformationFood"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:elevation="0dp"
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar"
+            android:background="#345345"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ActionBarPopupThemeOverlay"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageInfo"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên sản phẩm"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/nameInfo"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giới thiệu"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/infoInfo"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số lượng"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/soluong"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <com.cuongnguyen.appdoan.Model.ExpandableHeightListView
+            android:id="@+id/listPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:fadingEdge="none"
+            android:focusable="false"
+            android:scrollbars="none"
+            >
+        </com.cuongnguyen.appdoan.Model.ExpandableHeightListView>
+    </LinearLayout>
+</LinearLayout>
+

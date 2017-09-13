@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "96792178255",
+    "project_id": "tracnghiemtienganh-28053"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96792178255:android:c00aea5384f06692",
+        "android_client_info": {
+          "package_name": "vn.edu.itplus_academy.tracnghiemtienganh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1K0CbJ_UUShQjgAjPtMhEqLZaQ5GkVEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

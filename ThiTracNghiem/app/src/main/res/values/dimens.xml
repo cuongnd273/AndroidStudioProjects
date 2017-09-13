@@ -1,0 +1,34 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default wecome margins, per the Android Design guidelines.-->
+    <dimen name="wecome_vertical_margin">100dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">200dp</dimen>
+    <dimen name="slide_title">18dp</dimen>
+    <dimen name="slide_desc">12sp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <!-- Default login,signup margins, per the Android Design guidelines.-->
+    <dimen name="login_signup_layout_horinzontal_pading">35dp</dimen>
+    <dimen name="login_signup_title_margin">50dp</dimen>
+    <dimen name="login_signup_slide_title">30dp</dimen>
+    <dimen name="login_signup_edt_height">40dp</dimen>
+    <dimen name="login_signup_edt_margin">50dp</dimen>
+    <dimen name="login_signup_edt_margin1">16dp</dimen>
+    <dimen name="login_signup_edt_pading">20dp</dimen>
+    <dimen name="signup_radio_margin">12dp</dimen>
+    <dimen name="signup_txt_margin">16dp</dimen>
+    <dimen name="signup_txt_pading">20dp</dimen>
+    <dimen name="signup_txt_size">18dp</dimen>
+    <dimen name="login_signup_btn_height">40dp</dimen>
+    <dimen name="login_signup_btn_margin">16dp</dimen>
+    <dimen name="login_signup_txt_margin_top">20dp</dimen>
+    <dimen name="login_signup_txt_margin_button">50dp</dimen>
+    <dimen name="login_signup_txt_size">12dp</dimen>
+</resources>

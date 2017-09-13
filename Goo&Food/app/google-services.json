@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046189696703",
+    "project_id": "goofood-35dde"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046189696703:android:2c8c91d96c73341a",
+        "android_client_info": {
+          "package_name": "com.example.app.goofood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046189696703-1fianlfnpj3hpuqm6u2atn7d3cp0qc3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app.goofood",
+            "certificate_hash": "D33616A5692E0ACE7DC796F37DFE29D248B1A3BB"
+          }
+        },
+        {
+          "client_id": "1046189696703-h3q95vnpj5v3flrks87pnv7e53024h7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWFQEa1CV3_Pkn49-4ePksn4pw9_5Gf3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

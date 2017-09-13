@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuConvertNumber"
+            android:icon="@drawable/number"
+            android:title="Chuyển đổi số" />
+        <item
+            android:id="@+id/menuConvertUnit"
+            android:icon="@drawable/unit"
+            android:title="Chuyển đổi đơn vị" />
+        <item
+            android:id="@+id/mmenuConvertCurrency"
+            android:icon="@drawable/money"
+            android:title="Chuyển đổi tiền tệ" />
+            <item
+                android:id="@+id/menuInfo"
+                android:icon="@drawable/info"
+                android:title="Giới thiệu" />
+            <item
+                android:id="@+id/menuRule"
+                android:icon="@drawable/rule"
+                android:title="Nội quy" />
+    </group>
+</menu>
