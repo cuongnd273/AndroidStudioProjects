@@ -80,7 +80,7 @@ public class PhieuGiamGiaActivity extends AppCompatActivity implements Callback<
         Toast.makeText(this, "Có lỗi xảy ra", Toast.LENGTH_SHORT).show();
         Intent intent=getIntent();
         intent.putExtra("giamgia",0);
-        setResult(2,intent);
+        setResult(3,intent);
         finish();
     }
 

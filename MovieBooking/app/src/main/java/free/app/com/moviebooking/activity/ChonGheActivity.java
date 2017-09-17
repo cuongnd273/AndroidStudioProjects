@@ -241,15 +241,19 @@ public class ChonGheActivity extends AppCompatActivity implements View.OnClickLi
         if(requestCode==1){
             if(resultCode==1){
                 giamgia=data.getIntExtra("giamgia",0);
+                JSONArray ghes=new JSONArray();
+                for(GheNgoi item : listChonGhe){
+                    ghes.put(item.getVitri());
+                }
+                User user=User.getUser(this);
+                responseDatVe(user.getMataikhoan(),giave,giamgia,ghes.toString());
             }else if(resultCode==2){
                 giamgia=0;
+                Toast.makeText(this, "Phiếu không hợp lệ hoặc đã xảy ra lỗi.", Toast.LENGTH_SHORT).show();
+            }else if(resultCode==3){
+                giamgia=0;
+                Toast.makeText(this, "Có lỗi xảy ra", Toast.LENGTH_SHORT).show();
             }
-            JSONArray ghes=new JSONArray();
-            for(GheNgoi item : listChonGhe){
-                ghes.put(item.getVitri());
-            }
-            User user=User.getUser(this);
-            responseDatVe(user.getMataikhoan(),giave,giamgia,ghes.toString());
         }
     }
 }

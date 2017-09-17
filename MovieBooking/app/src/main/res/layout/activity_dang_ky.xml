@@ -115,13 +115,6 @@
                     android:hint="Ngày sinh"
                     android:id="@+id/ngaysinh" />
             </android.support.design.widget.TextInputLayout>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Giới tính"
-                android:textColor="#000"
-                android:padding="5dp"
-                android:textSize="18dp"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
