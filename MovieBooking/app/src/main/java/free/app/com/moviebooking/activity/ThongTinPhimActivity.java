@@ -16,6 +16,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.squareup.picasso.Picasso;
 
+import java.text.DecimalFormat;
 import java.util.List;
 
 import free.app.com.moviebooking.R;
@@ -34,7 +35,7 @@ public class ThongTinPhimActivity extends AppCompatActivity implements View.OnCl
     Toolbar toolbar;
     Button datve;
     int maphim;
-    TextView tenphim,daodien,dienvien,ngaychieu,dodai,tomtat;
+    TextView tenphim,daodien,dienvien,ngaychieu,dodai,tomtat,gia;
     ImageView anh;
     ProgressDialog dialog;
     int type=0;
@@ -58,6 +59,7 @@ public class ThongTinPhimActivity extends AppCompatActivity implements View.OnCl
         ngaychieu= (TextView) findViewById(R.id.ngay_chieu);
         dodai= (TextView) findViewById(R.id.do_dai);
         tomtat= (TextView) findViewById(R.id.tom_tat);
+        gia= (TextView) findViewById(R.id.gia);
         anh= (ImageView) findViewById(R.id.image);
         datve.setOnClickListener(this);
         setSupportActionBar(toolbar);
@@ -98,6 +100,7 @@ public class ThongTinPhimActivity extends AppCompatActivity implements View.OnCl
 
     @Override
     public void onResponse(Call<Phim> call, Response<Phim> response) {
+        DecimalFormat formatter = new DecimalFormat("#,###,###");
         Phim phim=response.body();
         Picasso.with(this).load(phim.getAnh()).into(anh);
         tenphim.setText(phim.getTenphim());
@@ -105,6 +108,7 @@ public class ThongTinPhimActivity extends AppCompatActivity implements View.OnCl
         dienvien.setText("Diễn viên : "+phim.getDienvien());
         ngaychieu.setText("Ngày chiếu : "+phim.getNgaybatdau());
         dodai.setText("Thời lượng : "+phim.getThoiluong()+" phút");
+        gia.setText("Giá vé : "+formatter.format(Integer.parseInt(phim.getGia()))+" VND");
         tomtat.setText(phim.getTomtat());
         dialog.dismiss();
     }

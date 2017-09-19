@@ -14,6 +14,9 @@ public class Phim {
     @SerializedName("tenphim")
     @Expose
     private String tenphim;
+    @SerializedName("gia")
+    @Expose
+    private String gia;
     @SerializedName("ngaybatdau")
     @Expose
     private String ngaybatdau;
@@ -35,6 +38,14 @@ public class Phim {
     @SerializedName("tomtat")
     @Expose
     private String tomtat;
+
+    public String getGia() {
+        return gia;
+    }
+
+    public void setGia(String gia) {
+        this.gia = gia;
+    }
 
     public String getMaphim() {
         return maphim;
