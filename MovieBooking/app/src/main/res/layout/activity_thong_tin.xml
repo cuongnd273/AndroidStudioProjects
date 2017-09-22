@@ -163,6 +163,15 @@
                 android:textColor="#FFF"
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thay đổi thông tin"
+                android:id="@+id/capnhap"
+                android:background="@drawable/custom_button_dat_ve"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
         </LinearLayout>
     </android.support.design.widget.CoordinatorLayout>
 </android.support.v4.widget.NestedScrollView>

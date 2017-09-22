@@ -101,7 +101,7 @@ public class DangKyActivity extends AppCompatActivity implements Callback<Respon
                 else if(taikhoan.getText().length()==0)
                     Toast.makeText(DangKyActivity.this, "Hãy nhập tài khoản", Toast.LENGTH_SHORT).show();
                 else if(matkhau.getText().length()<5 || matkhau.getText().length()>16)
-                    Toast.makeText(DangKyActivity.this, "Hãy nhập mật khẩu", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DangKyActivity.this, "Hãy nhập mật khẩu từ 6 đến 16 ký tự", Toast.LENGTH_SHORT).show();
                 else if(xacnhanmatkhau.getText().length()==0)
                     Toast.makeText(DangKyActivity.this, "Hãy nhập lại mật khẩu", Toast.LENGTH_SHORT).show();
                 else if(!matkhau.getText().toString().equals(xacnhanmatkhau.getText().toString()))

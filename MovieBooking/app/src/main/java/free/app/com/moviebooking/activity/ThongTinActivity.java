@@ -18,13 +18,12 @@ public class ThongTinActivity extends AppCompatActivity {
     TextView cmnd,taikhoan,hoten,ngaysinh,sdt,diachi;
     Toolbar toolbar;
     User user;
-    Button dangxuat;
+    Button dangxuat,capnhap;
     int type=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thong_tin);
-        user=User.getUser(this);
         getControls();
     }
     public void getControls(){
@@ -36,15 +35,10 @@ public class ThongTinActivity extends AppCompatActivity {
         diachi= (TextView) findViewById(R.id.diachi);
         toolbar= (Toolbar) findViewById(R.id.toolbar);
         dangxuat= (Button) findViewById(R.id.dangxuat);
+        capnhap= (Button) findViewById(R.id.capnhap);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Thông tin tài khoản");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        cmnd.setText(user.getCmnd());
-        taikhoan.setText(user.getTaikhoan());
-        hoten.setText(user.getHoten());
-        ngaysinh.setText(user.getNgaysinh());
-        sdt.setText(user.getSdt());
-        diachi.setText(user.getDiachi());
         dangxuat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,8 +70,29 @@ public class ThongTinActivity extends AppCompatActivity {
                 alertDialog.show();
             }
         });
+        capnhap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ThongTinActivity.this,SuaThongTinActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        user=User.getUser(this);
+        showInfo();
+    }
+    public void showInfo(){
+        cmnd.setText(user.getCmnd());
+        taikhoan.setText(user.getTaikhoan());
+        hoten.setText(user.getHoten());
+        ngaysinh.setText(user.getNgaysinh());
+        sdt.setText(user.getSdt());
+        diachi.setText(user.getDiachi());
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId()==android.R.id.home)finish();

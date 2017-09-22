@@ -24,8 +24,10 @@
         <activity android:name=".activity.LichChieuActivity" />
         <activity android:name=".activity.ChonGheActivity" />
         <activity android:name=".activity.ThongTinActivity" />
-        <activity android:name=".activity.PhieuGiamGiaActivity"
-            android:theme="@style/Theme.AppCompat.Light.Dialog"></activity>
+        <activity
+            android:name=".activity.PhieuGiamGiaActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".activity.SuaThongTinActivity"></activity>
     </application>
 
 </manifest>
